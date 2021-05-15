@@ -105,3 +105,6 @@ gem 'sendgrid-actionmailer'
 gem 'remote_syslog_logger'
 
 gem 'activerecord-nulldb-adapter'
+
+#Rack CORS Middleware
+gem 'rack-cors'
