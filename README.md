@@ -1,4 +1,4 @@
-# Spree Starter (formerly Spark Starter Kit)
+# Online Marketplace
 
 [![Circle CI](https://circleci.com/gh/spree/spree_starter.svg?style=svg)](https://circleci.com/gh/spree/spree_starter) [![Maintainability](https://api.codeclimate.com/v1/badges/d240686c99b3d35eb61b/maintainability)](https://codeclimate.com/github/spree/spree_starter/maintainability)
 
@@ -77,22 +77,3 @@ docker-compose build
 | DB_POOL | database connection pool | 5 |
 | MEMCACHED_POOL_SIZE | memcache connection pool | 5 |
 | SENDGRID_API_KEY | API key to interface Sendgrid API | |
-
-## License
-
-Spree Starter (formerly Spark Starter Kit) is copyright © 2015-2021
-[Spark Solutions Sp. z o.o.][spark]. It is free software,
-and may be redistributed under the terms specified in the
-[LICENSE](LICENSE.md) file.
-
-## About Spark Solutions
-
-[![Spark Solutions](http://sparksolutions.co/wp-content/uploads/2015/01/logo-ss-tr-221x100.png)][spark]
-
-Spree Starter is maintained and funded by [Spark Solutions Sp. z o.o.](http://sparksolutions.co?utm_source=github)
-The names and logos are trademarks of Spark Solutions Sp. z o.o.
-
-We are passionate about open source software.
-We are [available for hire][spark].
-
-[spark]:http://sparksolutions.co?utm_source=github
