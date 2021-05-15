@@ -175,6 +175,11 @@ GEM
       activerecord (>= 5.a)
       database_cleaner-core (~> 2.0.0)
     database_cleaner-core (2.0.1)
+    deface (1.8.1)
+      nokogiri (>= 1.6)
+      polyglot
+      rails (>= 5.2)
+      rainbow (>= 2.1.0)
     devise (4.8.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -329,6 +334,7 @@ GEM
     parser (3.0.1.1)
       ast (~> 2.4.1)
     pg (1.2.3)
+    polyglot (0.3.5)
     popper_js (1.16.0)
     premailer (1.14.3)
       addressable
@@ -607,6 +613,12 @@ GEM
       rails-i18n
       spree_core (>= 4.2.0.rc3, < 5.0)
       spree_extension
+    spree_multi_vendor (2.1.0)
+      deface (~> 1.0)
+      spree_api (>= 4.2.0.rc5, < 5.0)
+      spree_backend (>= 4.2.0.rc5, < 5.0)
+      spree_core (>= 4.2.0.rc5, < 5.0)
+      spree_extension
     spree_sample (4.2.3.1)
       spree_core (= 4.2.3.1)
     spring (2.1.1)
@@ -699,6 +711,7 @@ DEPENDENCIES
   memory_profiler
   mini_racer
   pg
+  polyglot
   puma
   rack-cache
   rack-cors
@@ -717,6 +730,7 @@ DEPENDENCIES
   spree_dev_tools
   spree_gateway (~> 3.9)
   spree_i18n (~> 5.0)
+  spree_multi_vendor
   spring
   stackprof
   uglifier
