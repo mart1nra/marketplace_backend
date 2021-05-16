@@ -36,8 +36,8 @@ module SpreeStarter
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
-    config.i18n.default_locale = :en
-    I18n.available_locales = :en
+    config.i18n.default_locale = :es
+    I18n.available_locales = [:en, :es]
 
     # use Sidekiq for ActiveJob
     config.active_job.queue_adapter = :sidekiq
